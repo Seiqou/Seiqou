@@ -10,11 +10,14 @@ androidx-espresso = "3.7.0"
 androidx-lifecycle = "2.11.0"
 androidx-testExt = "1.3.0"
 composeMultiplatform = "1.12.1"
+firebaseApp = "2.7.0"
 junit = "4.13.2"
 kotlin = "2.4.20"
 material3 = "1.12.0-alpha03"
 
 [libraries]
+firebase-app = { module = "dev.gitlive:firebase-app", version.ref = "firebaseApp" }
+firebase-auth = { module = "dev.gitlive:firebase-auth", version.ref = "firebaseApp" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 kotlin-testJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 junit = { module = "junit:junit", version.ref = "junit" }
