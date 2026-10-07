@@ -22,7 +22,7 @@ import seiqou.shared.generated.resources.compose_multiplatform
 @Composable
 @Preview
 fun App() {
-    MaterialTheme {
+    SeiqouTheme {
         var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier
