@@ -1,4 +1,4 @@
-package com.seiqou.seiqou
+package com.seiqou.seiqou.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

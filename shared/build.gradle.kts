@@ -58,6 +58,9 @@ kotlin {
             // Firebase
             implementation(libs.firebase.app)
             implementation(libs.firebase.auth)
+
+            // Nav
+            implementation(libs.navigation.compose)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

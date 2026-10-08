@@ -1,4 +1,4 @@
-package com.seiqou.seiqou
+package com.seiqou.seiqou.ui.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect

@@ -1,4 +1,4 @@
-package com.seiqou.seiqou
+package com.seiqou.seiqou.ui.theme
 
 import android.app.Activity
 import androidx.compose.runtime.Composable
