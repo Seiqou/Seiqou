@@ -10,14 +10,21 @@ data class SeiqouColors(
     val onButton: Color
 )
 
-fun seiqouColors(isDarkTheme: Boolean) = SeiqouColors(
-    background = if (isDarkTheme)
-        Color(240, 229, 255, 255)
-    else Color(240, 229, 255, 255),
-    button = if (isDarkTheme)
-        Color(239, 190, 255)
-    else Color(239, 190, 255),
-    onButton = if (isDarkTheme)
-        Color(23, 8, 31, 255)
-    else Color(23, 8, 31, 255),
+private val lightColors = SeiqouColors(
+    background = Color(240, 229, 255, 255),
+    button = Color(239, 190, 255),
+    onButton = Color(23, 8, 31, 255),
 )
+
+private val darkColors = SeiqouColors(
+    background = Color(240, 229, 255, 255),
+    button = Color(239, 190, 255),
+    onButton = Color(23, 8, 31, 255),
+)
+
+fun seiqouColors(isDarkTheme: Boolean) =
+    if (isDarkTheme) {
+        darkColors
+    } else {
+        lightColors
+    }

@@ -17,7 +17,6 @@ import com.seiqou.seiqou.ui.theme.LocalSeiqouColors
 import com.seiqou.seiqou.ui.theme.SeiqouTheme
 
 @Composable
-@Preview
 fun App() {
     SeiqouTheme {
         val seiqouColors = LocalSeiqouColors.current
